@@ -39,12 +39,12 @@
 
         <hr>
         <h3>3. Crear un array asociativo e introducir los siguientes valores:</h3>
-        <li>
-            <ul>Nombre: Pedro</ul>
-            <ul>Apellido: Torres</ul>
-            <ul>Dirección: Av. Mayor 3703</ul>
-            <ul>Teléfono: 1122334455</ul>
-        </li>
+        <ul>
+            <li>Nombre: Pedro</li>
+            <li>Apellido: Torres</li>
+            <li>Dirección: Av. Mayor 3703</li>
+            <li>Teléfono: 1122334455</li>
+        </ul>
         <?php
         $infoPedro = [
             'name' => "Pedro",
@@ -54,12 +54,12 @@
         ];
         print "<h3>Impresión de array asociativa:</h3>";
         print "
-            <li>
-            <ul>Nombre: $infoPedro[name]</ul>
-            <ul>Apellido: $infoPedro[lastName]</ul>
-            <ul>Dirección: $infoPedro[address]</ul>
-            <ul>Teléfono: $infoPedro[phone]</ul>
-            </li>
+            <ul>
+            <li>Nombre: $infoPedro[name]</li>
+            <li>Apellido: $infoPedro[lastName]</li>
+            <li>Dirección: $infoPedro[address]</li>
+            <li>Teléfono: $infoPedro[phone]</li>
+            </ul>
             ";
         ?>
 
